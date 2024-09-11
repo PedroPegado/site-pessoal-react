@@ -1,0 +1,51 @@
+.heroPage {
+    height: 900px;
+    background-color: var(--clr-secondary);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroPage div {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heroPage div h1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--clr-primary);
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+    text-shadow: 1px 1px 2px;
+    cursor: pointer;
+}
+
+.heroPage div h1 a {
+    text-decoration: none;
+    transform: skew(-2deg, -4deg) rotate(-2deg);
+    color: var(--clr-primary);
+    transition: -webkit-text-stroke .5s;
+    transition: transform .2s;
+}
+
+.heroPage div h1 a:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--clr-accent); 
+    transform: skew(-1.5deg, -3.5deg) rotate(-1.5deg)
+}
+  

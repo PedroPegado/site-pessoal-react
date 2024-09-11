@@ -1,9 +1,10 @@
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    height: 500px;
-    background-color: var(--clr-secondary);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer .socialInfos {
@@ -31,12 +32,16 @@ footer .socialInfos .instagram div:hover .instagramIcon{
     color: #d300c5;
 }
 
+footer .socialInfos .github div:hover .githubIcon{
+    color: #fff;
+}
+
 footer .socialInfos div h2{
-    font-size: 1vw;
+    font-size: .6vw;
 }
 
 footer .socialInfos div p {
-    font-size: 1vw;
+    font-size: .6vw;
 }
 
 footer .socialInfos div div{
@@ -61,4 +66,14 @@ footer .socialInfos .instagram .instagramIcon {
     font-size: 24px;
     text-decoration: none;
     transition: .5s;
+}
+
+@media (max-width: 1000px)  {
+    footer .socialInfos div h2{
+        font-size: 1vw;
+    }
+    
+    footer .socialInfos div p {
+        font-size: 1vw;
+    }
 }

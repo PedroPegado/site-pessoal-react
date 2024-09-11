@@ -8,9 +8,10 @@
 }
 
 :root {
-  --clr-primary: #6D00C3;
-  --clr-secondary: #111111;
-  --clr-accent: #fcfaff;
+  --clr-primary: #CB1F5A;
+  --clr-secondary: #21303B;
+  --clr-accent: #36CACC;
+  --clr-accent-blueGray: #327987; 
   --clr-accent-gray: #181818;
   --clr-accent-purple: #a22cfd;
   --font-primary: 'Bebas Neue';
