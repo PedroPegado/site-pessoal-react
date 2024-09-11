@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+:root {
+  --clr-primary: #6D00C3;
+  --clr-secondary: #111111;
+  --clr-accent: #fcfaff;
+  --clr-accent-gray: #181818;
+  --clr-accent-purple: #a22cfd;
+  --font-primary: 'Bebas Neue';
+  --font-secondary: 'Press Start 2P'
+}

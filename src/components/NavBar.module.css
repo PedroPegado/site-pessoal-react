@@ -1,0 +1,63 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-secondary);
+    height: 70px;
+    border-bottom: 1px solid var(--clr-primary);
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.navbar .headerName h1 {  
+    font-family: var(--font-secondary);
+    font-size: clamp(12px, 2vw, 20px);
+}
+
+.navbar .headerName h1 a {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+
+.navbar .navLinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navLinks ul li a{
+    position: relative;
+    font-family: var(--font-primary);
+    color: var(--clr-accent);
+    text-decoration: none;
+    font-size: clamp(14px, 2vw, 20px);
+    margin-left: 20px;
+}
+
+.navbar .navLinks ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    height: 1px;
+    background-color: var(--clr-primary); 
+    transform: scaleX(0); 
+    transform-origin: bottom left;
+    transition: transform 0.3s ease; 
+}
+
+.navbar .navLinks ul li a:hover::after {
+    transform: scaleX(1); 
+}
+
+.navbar .navLinks ul li a:hover {
+    color: var(--clr-primary); 
+}

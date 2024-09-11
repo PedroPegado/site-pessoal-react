@@ -1,0 +1,64 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: var(--clr-secondary);
+}
+
+footer .socialInfos {
+    display: flex;
+    gap: 20px;
+}
+
+footer .socialInfos .email,  
+footer .socialInfos .github,
+footer .socialInfos .instagram{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-accent);
+    font-family: var(--font-secondary);
+}
+
+footer .socialInfos .email div:hover .emailIcon{
+    color: red;
+}
+
+footer .socialInfos .instagram div:hover .instagramIcon{
+    color: #d300c5;
+}
+
+footer .socialInfos div h2{
+    font-size: 1vw;
+}
+
+footer .socialInfos div p {
+    font-size: 1vw;
+}
+
+footer .socialInfos div div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-accent-gray);
+    transition: .5s;
+}
+
+footer .socialInfos div div:hover {
+    transform: scale(1.1);
+}
+
+footer .socialInfos .email .emailIcon,
+footer .socialInfos .github .githubIcon,
+footer .socialInfos .instagram .instagramIcon {
+    color: var(--clr-accent);
+    font-size: 24px;
+    text-decoration: none;
+    transition: .5s;
+}
