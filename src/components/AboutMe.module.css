@@ -1,0 +1,11 @@
+.aboutMe {
+    height: 80vh;
+    width: 100%;
+    background-color: var(--clr-sections);
+}
+
+.sectionTitle {
+    font-family: var(--font-secondary);
+    color: var(--clr-accent-white);
+    background-color: transparent;
+}

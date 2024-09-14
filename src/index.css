@@ -5,12 +5,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 
 :root {
   --clr-primary: #CB1F5A;
   --clr-secondary: #21303B;
+  --clr-sections: #31424e;
   --clr-accent: #36CACC;
+  --clr-accent-white: #D3CACE;
   --clr-accent-blueGray: #327987; 
   --clr-accent-gray: #181818;
   --clr-accent-purple: #a22cfd;
