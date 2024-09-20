@@ -6,7 +6,7 @@ function Hero() {
             <div>
                 <h1><a className='element' href='#SobreMim'>SOBRE MIM</a></h1>
                 <h1><a className='element' href='#Curiosidades'>CURIOSIDADES</a></h1>
-                <h1><a className='element' href='#Portifolio'>PORTIFÓLIO</a></h1>
+                <h1><a className='element' href='#Portfolio'>PORTFÓLIO</a></h1>
             </div>
         </section>
     )

@@ -1,0 +1,16 @@
+.curiosities {
+    min-height: 1500px;
+    background-color: var(--clr-sections);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 90%;
+    margin-block: 60px;
+}

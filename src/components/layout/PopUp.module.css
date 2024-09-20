@@ -1,0 +1,7 @@
+.popUpContainer {
+    width: 80vw;
+    height: 80vh;
+    background-color: var(--clr-accent-white);
+    border-radius: 20px;
+    display: none;
+}
