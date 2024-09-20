@@ -52,7 +52,3 @@
 .navbar .headerName h1 a:hover::after {
     transform: scaleX(1); 
 }
-
-.navbar .headerName h1 a:hover {
-    color: var(--clr-accent); 
-}
