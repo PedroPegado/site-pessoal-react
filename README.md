@@ -23,12 +23,9 @@ Este é um pequeno site pessoal com informações sobre mim, como algumas curios
 
 ### Executando o programa
 
-1. Rode-o usando o npm ou yarn
+1. Rode-o usando o npm
     ```
     npm start
-    ```
-    ```
-    yarn start
     ```
 
 ### Paleta de cores utilizada 
